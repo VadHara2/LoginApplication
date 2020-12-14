@@ -1,0 +1,10 @@
+package com.example.loginapplication.ui.login
+
+data class LoginResult(
+        val success: LoggedInUserView? = null,
+        val error: Int? = null
+)
+
+/**
+ * Authentication result : success (user details) or error message.
+ */
